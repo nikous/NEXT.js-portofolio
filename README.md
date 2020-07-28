@@ -1,7 +1,14 @@
 # Nextjs-portofolio
 
 ## Table of contents
+* [General info](#general-info)
+* [Technologies](#technologies)
+* [Requirements](#Requirements)
 * [setup](#setup)
+* [Deploy](#deploy-to-heroku)
+* [Contact](#contact)
+
+## General info
 
 ## setup
 
