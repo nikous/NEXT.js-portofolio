@@ -5,7 +5,7 @@
 * [Technologies](#technologies)
 * [Requirements](#Requirements)
 * [setup](#setup)
-* [Deploy](#deploy-to-heroku)
+* [Deploy](#deploy)
 * [Contact](#contact)
 
 ## General info
