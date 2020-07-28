@@ -1,11 +1,11 @@
 # Nextjs-portofolio
 
 ## Table of contents
-* [setup](#Setup)
+* [setup](#setup)
 
-# Setup
+## setup
 
-## Install next-js
+### Install next-js
 
 ```bash
 npx create-next-app
