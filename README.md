@@ -1,4 +1,4 @@
-# Nextjs-portofolio
+# NEXT.js portofolio
 
 ## Table of contents
 * [General info](#general-info)
