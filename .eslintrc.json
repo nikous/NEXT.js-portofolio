@@ -8,15 +8,19 @@
     "plugins": ["prettier"],
     "rules": {
 
-        "prettier/prettier": "error",
+
         "no-unused-vars": "warn",
         "no-console": "off",
         "func-names": "off",
         "object-shorthand": "off",
         "class-methods-use-this": "off",
         "react/react-in-jsx-scope": "off",
-        "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }]
+        "react/jsx-filename-extension": [1, {
+            "extensions": [".js", ".jsx"]
+        }],
+        "prettier/prettier": ["error", {
+            "endOfLine": "auto"
+        }]
+
     }
-
-
 }
