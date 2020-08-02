@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700;800;900&family=Raleway:ital,wght@0,400;1,300&display=swap');
+
+.main {
+    /* background-color:rgb(247, 247, 247); */
+    height: 100vh;
+}
+
+.row {
+    height: 60vh;
+    ;
+}
+
+.home {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.home h1 {
+    font-family: 'Playfair Display', serif;
+    margin-left: 3rem;
+    font-size: 4rem;
+    font-weight: 800;
+    letter-spacing: 1.5px;
+}
+
+.introh3 {
+    font-family: 'Raleway', sans-serif;
+    color: #b7b7b7;
+    font-weight: 400;
+    display: inline-flex;
+    justify-content: flex-end;
+    letter-spacing: 1.5px;
+
+}
+
+.intro {
+    width: fit-content;
+}
+
+.typewriter {
+    font-family: 'Inconsolata', monospace;
+    display: inline-block;
+}
+
+.typewriterText {
+    display: inline-block;
+    overflow: hidden;
+    letter-spacing: 2px;
+    animation: typing 5s steps(30, end), blink .75s step-end infinite;
+    white-space: nowrap;
+    font-size: 30px;
+    font-weight: 700;
+    border-right: 1px solid rgb(2, 1, 0);
+    box-sizing: border-box;
+}
+
+@keyframes typing {
+    from {
+        width: 0%
+    }
+
+    to {
+        width: 100%
+    }
+}
+
+@keyframes blink {
+
+    from,
+    to {
+        border-color: transparent
+    }
+
+    50% {
+        border-color: rgb(0, 0, 0);
+    }
+}
+
+
+
+/* Media queries */
+
+@media only screen and (max-width: 806px) {
+    .introh3 {
+        justify-content: flex-start;
+        margin-left: 3rem;
+    }
+}
